@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_checkpoint2_training.dir/tests/test_checkpoint2_training.cpp.o CMakeFiles/test_checkpoint2_training.dir/src/Matrix.cpp.o CMakeFiles/test_checkpoint2_training.dir/src/Layer.cpp.o CMakeFiles/test_checkpoint2_training.dir/src/NeuralNetwork.cpp.o -o test_checkpoint2_training

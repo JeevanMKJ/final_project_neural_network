@@ -1,0 +1,4 @@
+Checkpoint1ForwardPropagation 1 0.715866
+Checkpoint2Training 1 0.379424
+Checkpoint3Persistence 1 0.384223
+---

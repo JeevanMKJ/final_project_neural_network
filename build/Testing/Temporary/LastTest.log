@@ -1,0 +1,97 @@
+Start testing: Dec 06 19:24 PST
+----------------------------------------------------------
+1/3 Testing: Checkpoint1ForwardPropagation
+1/3 Test: Checkpoint1ForwardPropagation
+Command: "/Users/jeevanmorgankress-jones/Desktop/final_project_neural_network copy/build/test_checkpoint1_forward_propagation"
+Directory: /Users/jeevanmorgankress-jones/Desktop/final_project_neural_network copy/build
+"Checkpoint1ForwardPropagation" start time: Dec 06 19:24 PST
+Output:
+----------------------------------------------------------
+
+=== Checkpoint 1: Forward Propagation Tests ===
+Testing Feature: Forward Propagation & Prediction
+
+Test 1: Matrix-Vector Multiplication... PASSED
+Test 2: Activation Functions... PASSED
+Test 3: Forward Propagation... PASSED
+
+✓ All tests passed!
+=== Test Summary ===
+Total Tests: 3
+Passed: 3
+Failed: 0
+<end of output>
+Test time =   0.72 sec
+----------------------------------------------------------
+Test Passed.
+"Checkpoint1ForwardPropagation" end time: Dec 06 19:24 PST
+"Checkpoint1ForwardPropagation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: Checkpoint2Training
+2/3 Test: Checkpoint2Training
+Command: "/Users/jeevanmorgankress-jones/Desktop/final_project_neural_network copy/build/test_checkpoint2_training"
+Directory: /Users/jeevanmorgankress-jones/Desktop/final_project_neural_network copy/build
+"Checkpoint2Training" start time: Dec 06 19:24 PST
+Output:
+----------------------------------------------------------
+
+=== Checkpoint 2: Training & Backpropagation Tests ===
+Testing Feature: Training with Backpropagation
+
+Test 1: Loss Function Computation... PASSED
+Test 2: Training Reduces Loss... PASSED
+    Initial loss: 0.125
+    Final loss:   0.103122
+    Improvement:  17.5024%
+Test 3: Weights Are Updated After Training... PASSED
+
+✓ All tests passed!
+=== Test Summary ===
+Total Tests: 3
+Passed: 3
+Failed: 0
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Passed.
+"Checkpoint2Training" end time: Dec 06 19:24 PST
+"Checkpoint2Training" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: Checkpoint3Persistence
+3/3 Test: Checkpoint3Persistence
+Command: "/Users/jeevanmorgankress-jones/Desktop/final_project_neural_network copy/build/test_checkpoint3_persistence"
+Directory: /Users/jeevanmorgankress-jones/Desktop/final_project_neural_network copy/build
+"Checkpoint3Persistence" start time: Dec 06 19:24 PST
+Output:
+----------------------------------------------------------
+
+=== Checkpoint 3: Model Persistence Tests ===
+Testing Feature: Save & Load Trained Models
+
+Test 1: Save Model Creates File...Model saved to test_model_checkpoint3.csv
+ PASSED
+Test 2: Loaded Model Produces Identical Predictions...Model saved to test_model_and.csv
+Model loaded from test_model_and.csv
+ PASSED
+Test 3: Save/Load Preserves Training Quality...Model saved to test_model_quality.csv
+Model loaded from test_model_quality.csv
+ PASSED
+    Original loss: 0.0343019
+    Loaded loss:   0.0343019
+
+✓ All tests passed!
+=== Test Summary ===
+Total Tests: 3
+Passed: 3
+Failed: 0
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Passed.
+"Checkpoint3Persistence" end time: Dec 06 19:24 PST
+"Checkpoint3Persistence" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 06 19:24 PST

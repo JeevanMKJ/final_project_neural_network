@@ -1,0 +1,23 @@
+# Build directories
+  build/
+  CMakeFiles/
+  CMakeCache.txt
+  cmake_install.cmake
+  Makefile
+
+# IDE settings
+  .vscode/
+  .idea/
+
+# Compiled binaries
+  final_project_neural_network
+
+# Trained models 
+  trained_model.csv
+
+  .DS_Store
+
+  *.o
+  *.out
+  *.exe
+  *.app
